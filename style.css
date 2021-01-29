@@ -1,0 +1,58 @@
+button{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+}
+body{
+    text-align: center;
+    font-size: 30px;
+}
+#welcome{
+    height: 800px;
+    background-color: aqua;
+    z-index: 10;
+}
+.links{
+    font-size: 20px;
+    color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 22px;
+    margin-left: 33px;
+    display: inline;
+    position:sticky;
+    z-index: 9;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration:underline;
+}
+#contact{
+    height: 800px;
+    color: white;
+    background-color: yellow;
+}
+#acheivment{
+    height: 1000px;
+    background-color: aquamarine;
+    font-size: 25px;
+}
+#campuslife{
+    height: 900px;
+    background-color: chartreuse;
+}
+.icon-bar{
+    background-color: white;
+    height: 10px;
+}
+my_nav_bar{
+    position:sticky;
+    z-index: 99999;
+}
+marquee{
+    font-size: 20px;
+    color: white;
+}
